@@ -1,0 +1,10 @@
+^C:\USERS\SHAFKAT\DESKTOP\FLUTTER PROJECT\FLUTTER_APPLICATION_1\BUILD\WINDOWS\CMAKEFILES\5FB954626C27406C8BA995E39267C724\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Shafkat/Desktop/flutter project/flutter_application_1/windows" "-BC:/Users/Shafkat/Desktop/flutter project/flutter_application_1/build/windows" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Shafkat/Desktop/flutter project/flutter_application_1/build/windows/flutter_application_1.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
